@@ -8,7 +8,7 @@
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
-
+# Partials help us break our code up into reusable chunks.
 class Author < ActiveRecord::Base
   has_many :posts
 end
